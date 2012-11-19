@@ -1,0 +1,48 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: rgba(255, 253, 247, 1.00);
+}
+article {
+    max-width: 768px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 69px;
+    line-height: 100px;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Gentium Book Basic';
+    text-transform: none;
+    text-align: center;
+}
+h2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: italic;
+}
+article {
+    margin-bottom: 0px;
+    text-indent: 16px;
+    line-height: 35px;
+}
+
+p.author a:link {
+    text-decoration: none;
+    color: rgba(255, 204, 0, 1.00);
+}
+
+p.author a:hover {
+    color: rgba(102, 102, 102, 1.00);
+}
